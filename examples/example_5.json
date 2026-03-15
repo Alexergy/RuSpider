@@ -1,0 +1,8 @@
+{
+  "id": 4,
+  "sql": "SELECT avg(num_employees) FROM department WHERE ranking BETWEEN 10 AND 15",
+  "question_en": "What is the average number of employees of the departments whose rank is between 10 and 15?",
+  "question_ru": "Какова средняя численность сотрудников подразделений, чей ранг находится между 10 и 15?",
+  "description_ru": "Запрос средней сложности: Запрос вычисления среднего значения из таблицы 'department' и с 2 условиями фильтрации (отбора). Запрос отвечает на вопрос: \"Какова средняя численность сотрудников подразделений, чей ранг находится между 10 и 15?\" Используется агрегатная функция AVG.",
+  "difficulty": "medium"
+}

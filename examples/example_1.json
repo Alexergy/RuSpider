@@ -1,0 +1,8 @@
+{
+  "id": 0,
+  "sql": "SELECT count(*) FROM head WHERE age  >  56",
+  "question_en": "How many heads of the departments are older than 56 ?",
+  "question_ru": "Сколько руководителей ведомств старше 56 лет?",
+  "description_ru": "Запрос подсчета количества записей из таблицы 'head' и с одним условием фильтрации (отбора). Запрос отвечает на вопрос: \"Сколько руководителей ведомств старше 56 лет?\" Используется агрегатная функция COUNT.",
+  "difficulty": "easy"
+}

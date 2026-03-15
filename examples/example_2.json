@@ -1,0 +1,8 @@
+{
+  "id": 1,
+  "sql": "SELECT name ,  born_state ,  age FROM head ORDER BY age",
+  "question_en": "List the name, born state and age of the heads of departments ordered by age.",
+  "question_ru": "Укажите имена, штаты рождения и возраст руководителей отделов в порядке возрастания.",
+  "description_ru": "Запрос выборки данных из таблицы 'head' и с сортировкой полученных результатов по возрастанию. Запрос отвечает на вопрос: \"Укажите имена, штаты рождения и возраст руководителей отделов в порядке возрастания.\"",
+  "difficulty": "easy"
+}

@@ -1,0 +1,8 @@
+{
+  "id": 3,
+  "sql": "SELECT max(budget_in_billions) ,  min(budget_in_billions) FROM department",
+  "question_en": "What are the maximum and minimum budget of the departments?",
+  "question_ru": "Каков максимальный и минимальный бюджет отделов?",
+  "description_ru": "Запрос средней сложности: Запрос вычисления максимального значения и минимального значения из таблицы 'department'. Запрос отвечает на вопрос: \"Каков максимальный и минимальный бюджет отделов?\" Используются агрегатные функции: MAX, MIN.",
+  "difficulty": "medium"
+}

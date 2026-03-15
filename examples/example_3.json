@@ -1,0 +1,8 @@
+{
+  "id": 2,
+  "sql": "SELECT creation ,  name ,  budget_in_billions FROM department",
+  "question_en": "List the creation year, name and budget of each department.",
+  "question_ru": "Укажите год создания, название и бюджет каждого отдела.",
+  "description_ru": "Запрос выборки данных из таблицы 'department'. Запрос отвечает на вопрос: \"Укажите год создания, название и бюджет каждого отдела.\"",
+  "difficulty": "easy"
+}
