@@ -5,7 +5,7 @@
 **RuSpider** — это открытый русскоязычный датасет для задачи преобразования SQL-запросов в текстовые описания (SQL-to-Text). Создан на основе англоязычного датасета **Spider 1.0** путём перевода вопросов и генерации подробных описаний на русском языке.
 
 ## Характеристики датасета
-- **Количество примеров**: 8 034
+- **Количество примеров**: 8,034
 - **Источник**: Spider 1.0
 - **Язык вопросов и описаний**: Русский
 - **Формат**: JSON
@@ -24,31 +24,35 @@
 CC BY-SA 4.0
 
 ## Структура репозитория
+```yaml
 RuSpider/
 ├── data/
-│ ├── train/ # Тренировочные данные
-│ │ ├── train.json # Упрощённая версия (рекомендуется)
-│ │ ├── train_full.json # Полная версия со всеми полями
-│ │ ├── train.csv # CSV для анализа
-│ │ └── train_examples.txt # Человеко-читаемые примеры
-│ │
-│ └── dev/ # Валидационные данные
-│ ├── dev.json
-│ ├── dev_full.json
-│ ├── dev.csv
-│ └── dev_examples.txt
+│   ├── train/              # Тренировочные данные
+│   │   ├── train.json      # Упрощённая версия
+│   │   ├── train_full.json # Полная версия
+│   │   ├── train.csv       # CSV
+│   │   └── train_examples.txt
+│   │
+│   └── dev/                # Валидационные данные
+│       ├── dev.json
+│       ├── dev_full.json
+│       ├── dev.csv
+│       └── dev_examples.txt
 │
-├── examples/ # Примеры для ознакомления
-├── stats/ # Статистика датасета
-├── README.md # Этот файл
-└── LICENSE # Лицензия CC BY-SA 4.0
+├── examples/               # Примеры
+├── stats/                  # Статистика
+├── README.md
+└── LICENSE
+```
 
 ## Цитирование
-Если используете датасет, пожалуйста, цитируйте:
+Если вы используете **RuSpider** в своих исследованиях, пожалуйста, цитируйте его в следующем формате BibTeX:
+
+```bibtex
 @misc{RuSpider-2025,
-title={RuSpider: Russian SQL-to-Text Dataset},
-author={Aleksandra Noskova},
-year={2025},
-publisher={GitHub},
-url={https://github.com/Alexergy/RuSpider}
+  title     = {RuSpider: Russian SQL-to-Text Dataset},
+  author    = {Noskova, Aleksandra and Sabinin, Oleg},
+  year      = {2025},
+  publisher = {GitHub},
+  howpublished = {\url{https://github.com/Alexergy/RuSpider}}
 }
